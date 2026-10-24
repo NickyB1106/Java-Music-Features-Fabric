@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "jmf",
+	"version": "${version}",
+	"name": "Java Music Features",
+	"description": "A mod to port over the custom music discs, disc presses, and pocket players from Bedrock Edition!",
+	"authors": [
+		"Nickith (NickyB1106)"
+	],
+	"contact": {
+		"homepage": "https://nickith.net/",
+		"sources": ""
+	},
+	"license": "MIT-License",
+	"icon": "assets/jmf/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nickith.jmf.JavaMusicFeatures"
+		],
+		"fabric-datagen": [
+			"net.nickith.jmf.JavaMusicFeaturesDataGenerator"
+		]
+	},
+	"mixins": [
+		"jmf.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
