@@ -1,0 +1,7 @@
+{
+  "item.jmf.blank_disc": "Blank Disc",
+  "item.jmf.track_disc": "Track Disc",
+  "block.jmf.disc_press": "Disc Press",
+  "container.disc_press": "Disc Press",
+  "stat.jmf.interact_with_disc_press": "Interactions with Disc Press"
+}

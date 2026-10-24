@@ -17,9 +17,6 @@
 	"entrypoints": {
 		"main": [
 			"net.nickith.jmf.JavaMusicFeatures"
-		],
-		"fabric-datagen": [
-			"net.nickith.jmf.JavaMusicFeaturesDataGenerator"
 		]
 	},
 	"mixins": [
